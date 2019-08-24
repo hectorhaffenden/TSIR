@@ -1,0 +1,11 @@
+Package: TSIR
+Type: Package
+Title: Dimension Reduction for Multivariate Time Series
+Version: 0.1.0
+Author: Hector Haffenden
+Maintainer: Hector Haffenden <haffendenhector@gmail.com>
+Description: Uses Sliced Inverse Regression techniques to perform Dimension Reduction for Multivariate Time Series
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
