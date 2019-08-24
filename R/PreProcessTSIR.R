@@ -2,7 +2,7 @@ PreProcessTSIR <- function(X = X, y = y){
   # This function performs some data checks.
   error_number = 0
   # Is X a data frame or matrix?
-  if (!is.data.frame(X) & !is.matrix(X)){
+  if (!is.data.frame(X)){
     error_number = error_number + 1
     warning("X is not a dataframe or a matrix, please fix.")
   }
